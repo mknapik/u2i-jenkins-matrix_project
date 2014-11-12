@@ -40,6 +40,7 @@ Gem::Specification.new do |spec|
     spec.add_development_dependency 'guard-rubocop'
     spec.add_development_dependency 'rubocop', '~> 0.23'
     spec.add_development_dependency 'rubocop-checkstyle_formatter'
+    spec.add_development_dependency 'metric_fu'
   end
   spec.add_development_dependency 'simplecov'
   spec.add_development_dependency 'simplecov-rcov'
